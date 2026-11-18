@@ -1,0 +1,30 @@
+﻿# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Datasets and recordings (large, keep out of git)
+data/*
+!data/.gitkeep
+
+# Trained models
+models/*
+!models/.gitkeep
+*.joblib
+*.pkl
+*.pt
+*.pth
+*.h5
+
+# ESP-IDF build output
+esp32/**/build/
+esp32/**/sdkconfig.old
+
+# Editor / OS
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Secrets (LLM API keys)
+.env
+.streamlit/secrets.toml
