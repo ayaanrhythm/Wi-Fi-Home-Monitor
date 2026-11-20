@@ -1,0 +1,46 @@
+# Dark navy "smart home hub" look. Locked to dark so the cards always match.
+
+[server]
+enableStaticServing = true   # serves static/hero.jpg (optional hero photo)
+
+[client]
+toolbarMode = "minimal"      # hide the Deploy button
+
+[theme]
+base = "dark"
+font = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+headingFontWeights = [700, 600, 600, 600, 500, 500]
+
+primaryColor = "#6C5CE7"            # violet accent (buttons, sliders, active items)
+backgroundColor = "#0B0D21"         # page
+secondaryBackgroundColor = "#161936" # cards / inputs
+textColor = "#E8E9F5"
+borderColor = "#262A4D"
+linkColor = "#9D8CFF"
+
+# One meaning per color, used by alerts, banner, and charts
+greenColor = "#3DD68C"
+orangeColor = "#F5A524"
+redColor = "#FF5C6C"
+blueColor = "#5B8CFF"
+violetColor = "#8E7CFF"
+grayColor = "#8A8FB3"
+
+metricValueFontSize = "2.6rem"
+metricValueFontWeight = 700
+
+baseRadius = "large"
+showSidebarBorder = false
+paddingTop = "1.5rem"
+
+chartCategoricalColors = ["#5B8CFF", "#FF5C6C", "#F5A524", "#3DD68C", "#8E7CFF", "#8A8FB3"]
+dataframeHeaderBackgroundColor = "#1C2042"
+dataframeBorderColor = "#262A4D"
+
+[theme.sidebar]
+backgroundColor = "#0E1028"
+secondaryBackgroundColor = "#161936"
+textColor = "#E8E9F5"
+borderColor = "#262A4D"
+primaryColor = "#6C5CE7"
+linkColor = "#9D8CFF"
